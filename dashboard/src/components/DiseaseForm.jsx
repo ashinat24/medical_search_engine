@@ -86,7 +86,7 @@ const DiseaseForm = ({
         />
         
         <button
-          className="bg-[#007aff] text-white p-2 px-3 rounded-md"
+          className="bg-[#354f52] hover:bg-[#2f3e46] text-white p-2 px-3 rounded-md"
           type="submit"
         >
           {initialData ? "Update Details" : "Add Details"}

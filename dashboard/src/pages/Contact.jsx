@@ -13,15 +13,15 @@ export const Contact = () => {
                 <div className="contact-info">
                     <div className="contact-info-item">
                         <FaMapMarkerAlt className="contact-icon" />
-                        <p>123 Main Street, City, Country</p>
+                        <p>IIIT Allahabad</p>
                     </div>
                     <div className="contact-info-item">
                         <FaPhone className="contact-icon" />
-                        <p>(123) 456-7890</p>
+                        <p>+91 9068340033</p>
                     </div>
                     <div className="contact-info-item">
                         <FaEnvelope className="contact-icon" />
-                        <p>contact@example.com</p>
+                        <p>iib2022033@iiita.ac.in</p>
                     </div>
                 </div>
             </div>

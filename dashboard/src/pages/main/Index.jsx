@@ -3,13 +3,13 @@ import "./Index.css"
 
 export const Index = () => {
     return (
-        <div className="container">
-      <div className="question">I am a</div>
+      <div className="container">
+      <div className="question">I am a </div>
       <div className="card-container">
         <div className="card">
-          <img src="./user-gear.png" alt="Admin" />
+          <img src="./admin.png" alt="Admin" />
           <button className="button">
-            <a href="http://localhost:5173/admin">Admin</a>
+            <a href="http://localhost:5173/login">Admin</a>
           </button>
         </div>
         <div className="card">

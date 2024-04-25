@@ -1,5 +1,6 @@
 .container {
     display: flex;
+    background-color: #CAD2C5;
     flex-direction: column;
     align-items: center;
     justify-content: center; /* Center vertically */
@@ -7,15 +8,21 @@
   }
   
   .question {
-    font-size: 24px;
+    font-size: 50px;
+    color:;
     margin-bottom: 20px;
   }
   
   .card-container {
     display: flex;
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+    background-color:#84a98c;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
+    justify-content: center;
+    gap: 40px;
   }
   
   .card {
@@ -23,6 +30,7 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    background-color: #cad2cf;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease; /* Add transition for smooth effect */
@@ -41,7 +49,7 @@
   
   .button {
     border: none;
-    background-color: #007bff;
+    background-color: #52796F;
     color: white;
     padding: 10px 20px;
     border-radius: 4px;
@@ -50,5 +58,5 @@
   }
   
   .button:hover {
-    background-color: #0056b3;
+    background-color: #2f3e46;
   }

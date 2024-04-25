@@ -3,11 +3,17 @@
     align-items: center;
     justify-content: space-between;
     padding: 50px 100px;
-    background-color: #f4f4f4;
+    background-color: #cad2c5;
   }
   
   .head{
-    color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    color: #2f3e46;
+  }
+  .welcome{
+    font-size: 80px;
+    color: #2f3e46;
   }
 
   .hero-content {
@@ -20,7 +26,7 @@
   
   .hero-text h1 {
     font-size: 3rem;
-    color: #333;
+    color: #2f3e46;
     margin-bottom: 20px;
   }
   
@@ -32,7 +38,7 @@
   
   .get-started-btn {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #354f52;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -42,7 +48,7 @@
   }
   
   .get-started-btn:hover {
-    background-color: #0056b3;
+    background-color: #2f3e46;
   }
   
   .hero-image {

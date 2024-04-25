@@ -129,7 +129,7 @@ const Dashboard = () => {
         </div>
 
         <button
-          className="bg-[#007aff] text-white p-2 px-3 rounded-md flex items-center justify-center gap-1"
+          className="bg-[#354f52] hover:bg-[#2f3e46] text-white p-2 px-3 rounded-md flex items-center justify-center gap-1"
           onClick={() => setIsModelOpen(true)}
         >
           <FiPlus /> Add New

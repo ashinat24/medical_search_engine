@@ -4,11 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* * {
+* {
   outline: none;
   font-family: "Roboto", sans-serif;
 }
-
+/*
 body {
   background-color: #f0f9ff;
   min-height: 100vh;

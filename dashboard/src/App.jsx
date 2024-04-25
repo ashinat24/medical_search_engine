@@ -16,6 +16,7 @@ function App() {
         <Route path="/manage" element={<Manage />} />
         <Route path="/view" element={<View />} />
         <Route path="/contact" element={<Contact />} />
+
         {/* Add more routes as needed */}
       </Routes>
     </Router>

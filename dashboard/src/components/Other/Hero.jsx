@@ -6,13 +6,13 @@ export const Hero = () => {
             <div className="hero-section">
                 <div className="hero-content">
                     <div className="hero-text">
-                        <h1>Welcome to </h1><h1 className="head">Medico</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos iusto fugit possimus repellendus fuga ea quaerat, quasi itaque nulla odit, tempora quidem quia sapiente doloribus voluptas placeat odio suscipit laborum debitis animi aperiam necessitatibus libero magni voluptates! Voluptates, officia natus quaerat perferendis eaque autem deserunt cupiditate, harum, enim incidunt doloribus iure eligendi ea fugiat assumenda. Similique ut laboriosam qui tempora mollitia eligendi consequuntur sed autem, dolorum vero aspernatur assumenda, iste sint magni pariatur cum officia?</p>
+                        <sapn className= "welcome">Welcome to </sapn><span className="head">Medico</span>
+                        <p>Medico is your comprehensive medical search engine, designed to provide you with accurate and reliable information at your fingertips. Whether you're curious about a particular disease, its symptoms, or the medications commonly used for treatment, Medico offers a user-friendly platform to search and discover. To make your healthcare journey even more convenient, Medico also features a locator for nearby medical stores where you can find the prescribed medications. With Medico, you're empowered to make informed decisions about your health, ensuring you have access to the resources you need, when you need them.</p>
                         <button className="get-started-btn">Get Started</button>
                     </div>
                 </div>
                 <div className="hero-image">
-                    <img src="Hero.jpg" alt="Hero Image" />
+                    <img src="./medicine.png" alt="Hero Image" />
                 </div>
             </div>
         </>
