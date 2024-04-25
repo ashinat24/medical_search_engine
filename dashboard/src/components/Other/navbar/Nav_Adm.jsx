@@ -1,6 +1,6 @@
 import "./Nav_Cus.css";
 
-export const Nav_Cus = () => {
+export const Nav_Adm = () => {
     return (
         <>
             <nav className="navbar">
@@ -9,9 +9,9 @@ export const Nav_Cus = () => {
                     <span className="brand-name">Medico</span>
                 </div>
                 <div className="navbar-links">
-                    <a href="http://localhost:5173/customer" className="nav-link">Home</a>
-                    <a href="http://localhost:5173/view" className="nav-link">View Medicines</a>
-                    <a href="http://localhost:5173/contact" className="nav-link">Contacts</a>
+                    <a href="http://localhost:5173/admin" className="nav-link">Home</a>
+                    <a href="http://localhost:5173/manage" className="nav-link">Manage Medicines</a>
+                    <a href="http://localhost:5173/" className="nav-link">Logout</a>
                 </div>
             </nav>
         </>

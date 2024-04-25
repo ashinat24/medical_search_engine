@@ -17,7 +17,7 @@ const SearchBar = ({ onSearch }) => {
         placeholder="Search by name or symptoms"
         value={query}
         onChange={handleChange}
-        className="text-black"
+        className="text-black w-[500px] outline-none"
       />
     </div>
   );

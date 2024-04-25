@@ -6,6 +6,10 @@
     background-color: #f4f4f4;
   }
   
+  .head{
+    color: aquamarine;
+  }
+
   .hero-content {
     flex: 1;
   }
