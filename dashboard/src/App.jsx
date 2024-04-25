@@ -6,6 +6,7 @@ import { View } from './pages/View';
 import { Contact } from './pages/Contact';
 import { Index } from './pages/main/Index';
 
+
 function App() {
   return (
     <Router>

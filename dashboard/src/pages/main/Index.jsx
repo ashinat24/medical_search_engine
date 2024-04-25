@@ -9,7 +9,7 @@ export const Index = () => {
         <div className="card">
           <img src="./admin.png" alt="Admin" />
           <button className="button">
-            <a href="http://localhost:5173/login">Admin</a>
+            <a href="http://localhost:5173/admin">Admin</a>
           </button>
         </div>
         <div className="card">

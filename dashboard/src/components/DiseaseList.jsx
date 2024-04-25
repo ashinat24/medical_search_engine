@@ -26,7 +26,7 @@ const DiseaseList = ({
 
   const handleDelete = async (diseaseId) => {
     try {
-      alert(`deleted ${diseaseId.name}`);
+      alert(`Deleted ${diseaseId.name}`);
       await axios.delete(`${BASE_URL}/api/delete_disease/${diseaseId._id}`); 
       console.log("deleted");
       fetchDiseases();
