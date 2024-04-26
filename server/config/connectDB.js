@@ -3,7 +3,7 @@ const colors = require("colors");
 
 const connectDB = async () => {
   try {
-    await mongoose.connect("mongodb+srv://vedantjadhav324:XDgMwiw8U0lYRNPX@cluster0.qejg7hk.mongodb.net/?retryWrites=true&w=majority&appName=cluster0");
+    await mongoose.connect("mongodb://localhost:27017"); //Enter your mongodb url
     console.log(`Mongo server run on ${mongoose.connection.host}`.bgGreen);
   } catch (error) {
     console.log(`${error}`.bgRed);
