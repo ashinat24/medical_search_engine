@@ -4,11 +4,8 @@ Here's README template :
 
 # Project Name
 
-Student Management
+Medical Search Engine
 
-## Live Link
-
-[Project Live Link](https://devalphaspace.com/)
 
 ## Installation
 
