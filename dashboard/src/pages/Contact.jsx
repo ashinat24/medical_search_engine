@@ -17,11 +17,11 @@ export const Contact = () => {
                     </div>
                     <div className="contact-info-item">
                         <FaPhone className="contact-icon" />
-                        <p>+91 9068340033</p>
+                        <p>+91 9368039980</p>
                     </div>
                     <div className="contact-info-item">
                         <FaEnvelope className="contact-icon" />
-                        <p>iib2022033@iiita.ac.in</p>
+                        <p>iib2022018@iiita.ac.in</p>
                     </div>
                 </div>
             </div>
